@@ -2,11 +2,12 @@
  "manifest_version": 2,
  "name": "Export Web to PDF",
  "description": "Exports the current webpage when you click the icon",
- "version": "1.0",
+ "version": "2.0",
  "icons": {
   "170": "icon.png" },
  "permissions": [
-  "tabs" ],
+  "tabs",
+  "downloads.open" ],
  "background": {
   "scripts": ["background.js"] },
  "browser_action": {
